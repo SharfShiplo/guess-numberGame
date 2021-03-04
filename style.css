@@ -1,0 +1,13 @@
+.navbar-dark .navbar-brand,
+.btn-dark,
+.btn-dark:focus {
+  color: #ffd23f;
+}
+.banner {
+  color: #ffd23f;
+  font-family: sans-serif;
+}
+
+#history {
+  margin-top: 16px;
+}

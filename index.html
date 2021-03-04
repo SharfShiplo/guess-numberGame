@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Guess The Number</title>
+  </head>
+  <body class="text-center">
+    <nav class="navbar navbar-dark bg-dark">
+      <!-- Navbar content -->
+      <a class="navbar-brand" href="#">Guess The Number</a>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="banner p-3 mb-0">1.2.3.</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-8 m-auto">
+            <div class="from-group mb-3">
+              <input
+                id="number-guessed"
+                type="number"
+                class="form-control"
+                placeholder="What's your guess?"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-8 m-auto">
+            <div id="result"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-8 m-auto">
+            <button type="button" id="number-submit" class="btn btn-dark">
+              Check Me
+            </button>
+            <button type="button" id="restart-game" class="btn btn-light">
+              Restart
+            </button>
+            <div id="history"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
